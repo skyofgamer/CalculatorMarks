@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="shoelace-dark.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <center>
+      <h1 class="shoelace-heading">Periodic test percentage calculator</h1>
+      <h1>
+        result:
+        <div id="output"></div>
+      </h1>
+      <br /><br />
+      <input
+        placeholder="Enter your marks in numbers"
+        class="shoelace-form"
+        type="text"
+        id="input1"
+      />
+      <button onclick="ptcal()" class="shoelace-btn btn">submit</button>
+
+      <hr />
+      <h1 class="shoelace-heading">Half Yearly percentage calculator</h1>
+      <h1>
+        result:
+        <div id="output1"></div>
+      </h1>
+      <br /><br />
+      <input
+        placeholder="Enter your marks in numbers"
+        class="shoelace-form"
+        type="text"
+        id="input2"
+      />
+      <button onclick="hycal()" class="shoelace-btn btn">submit</button>
+      <hr />
+      <h1 class="shoelace-heading">Normal test percentage calculator</h1>
+      <h1>
+        result:
+        <div id="output2"></div>
+      </h1>
+      <br /><br />
+      <input
+        placeholder="Enter Maximum Marks"
+        class="shoelace-form"
+        type="text"
+        id="inputMM"
+      />
+      <br />
+      <input
+        placeholder="Enter your marks in numbers"
+        class="shoelace-form"
+        type="text"
+        id="input3"
+      />
+      <br /><br />
+      <button onclick="calculatePercentage()" class="shoelace-btn btn">
+        Calculate Percentage
+      </button>
+
+      <hr />
+    </center>
+    <br /><br /><br /><br /><br /><br />
+    <center>
+      <footer style="background-color: rgba(0, 0, 0, 0.2)">
+        Made By
+        <a href="https://skyofgamer.github.io/MYportfolio/">Harmanveer Singh</a>
+      </footer>
+    </center>
+  </body>
+</html>
